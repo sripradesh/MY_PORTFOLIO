@@ -1,5 +1,6 @@
 .projects-section {
-  padding: 09rem 4rem;
+  padding: 12rem 6rem;
+  padding-bottom: 1rem;
   background-color: black;
   color: white;
   text-align: center;
@@ -7,24 +8,22 @@
   .projects-title {
     font-size: 3rem;
     color: orange;
-    text-shadow: 0 0 10px #ff9800, 0 0 20px #ff9800;
-    margin-bottom: 2rem;
-    margin-top: 20px;
+    /* text-shadow: 0 0 10px #ff9800, 0 0 20px #ff9800; */
+    margin-bottom: 3rem;
   }
   
   .projects-list {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    list-style: none;
     max-width: 800px;
     margin: 0 auto;
   }
   
   .project-item {
+    margin-bottom: 4rem;
+    padding: 1.5rem;
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(0, 255, 255, 0.4);
     border-radius: 10px;
-    padding: 2rem;
     box-shadow: 
       0 0 10px rgba(0, 255, 255, 0.2),
       0 0 30px rgba(0, 255, 255, 0.3);

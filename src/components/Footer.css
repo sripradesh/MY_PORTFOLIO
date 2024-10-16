@@ -1,9 +1,11 @@
 .footer {
-  padding: 2rem 0;
+  padding: 1rem 6rem;
   text-align: center;
-  background-color: #111;
+  background-color: black;
   color: #00ffea;
   font-family: 'Poppins', sans-serif;
+  box-shadow: 0 0 30px goldenrod; 
+  border-bottom: 0px solid goldenrod;
 }
 
 .footer-content {
@@ -14,7 +16,6 @@
 .social-links {
   list-style: none;
   padding: 0;
-  margin-top: 1rem;
 }
 
 .social-links li {
@@ -31,10 +32,11 @@
   width: 24px;
   height: 24px;
   transition: transform 0.3s;
+  margin-top: 10px;
 }
 
 .social-icon:hover {
-  transform: scale(1.1);
+  transform: scale(2.0);
 }
 
 .social-links a:hover {

@@ -4,8 +4,8 @@ import './Skills.css';
 const Skills = () => {
   return (
     <div id="skills" className="skills-section">
-      <h3>My Skills</h3>
-      <div className="skill">
+      <h2>My Skills</h2>
+      <div className="html">
         <p>HTML</p>
         <div className="progress-bar" style={{ width: '90%' }}></div>
       </div>
