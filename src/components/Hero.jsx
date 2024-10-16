@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
-import './Hero.css'; // Import the CSS
+import './Hero.css';
 // import bgImage from '../assets/backround.jpg';
 
 const HeroSection = () => {
@@ -10,8 +10,6 @@ const HeroSection = () => {
         className="background-layer"
         style={{ backgroundImage: `url(${bgImage})` }}
       ></div> */}
-
-      {/* Content Layer */}
       <div className="hero-content">
         <h1>Hi, I'm Sripradesh</h1>
         <h2>

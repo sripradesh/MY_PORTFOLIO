@@ -2,8 +2,8 @@
   padding: 2rem 0;
   text-align: center;
   background-color: #111;
-  color: #00ffea; /* Neon Cyan */
-  font-family: 'Poppins', sans-serif; /* Use the trending font */
+  color: #00ffea;
+  font-family: 'Poppins', sans-serif;
 }
 
 .footer-content {
@@ -28,16 +28,16 @@
 }
 
 .social-icon {
-  width: 24px; /* Size of the icons */
+  width: 24px;
   height: 24px;
   transition: transform 0.3s;
 }
 
 .social-icon:hover {
-  transform: scale(1.1); /* Scale effect on hover */
+  transform: scale(1.1);
 }
 
 .social-links a:hover {
-  color: goldenrod; /* Change color on hover */
+  color: goldenrod;
   text-shadow: 0 0 5px goldenrod, 0 0 10px goldenrod;
 }

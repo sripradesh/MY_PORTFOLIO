@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css';
-import linkedinLogo from '../assets/linkedin.svg'; // Add your LinkedIn logo path
-import githubLogo from '../assets/github.svg'; // Add your GitHub logo path
-import twitterLogo from '../assets/twitter.svg'; // Add your Twitter logo path
+import linkedinLogo from '../assets/linkedin.svg';
+import githubLogo from '../assets/github.svg';
+import twitterLogo from '../assets/twitter.svg';
 
 const Footer = () => {
   return (
