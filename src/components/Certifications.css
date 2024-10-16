@@ -1,0 +1,53 @@
+.certifications {
+    padding: 12rem 4rem;
+    background-color: black; 
+    color: white;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .certifications-title {
+    font-size: 3rem;
+    color: orange;
+    text-shadow: 
+    0 0 10px #ff9800, 
+    0 0 20px #ff9800;;
+    margin-bottom: 4rem;
+  }
+  
+  .certifications-list {
+    list-style: none;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .cert-item {
+    margin-bottom: 4rem;
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(0, 255, 255, 0.4);
+    border-radius: 10px;
+    box-shadow: 
+      0 0 10px rgba(0, 255, 255, 0.2),
+      0 0 30px rgba(0, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cert-title {
+    font-size: 1.8rem;
+    color: rgb(155, 89, 182);
+    text-shadow: 0 0 5px rgba(155, 89, 182, 0.7);
+  }
+  
+  .cert-provider, .cert-date {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .cert-item:hover {
+    transform: scale(1.05);
+    box-shadow: 
+      0 0 20px rgba(0, 255, 255, 0.6),
+      0 0 40px rgba(0, 255, 255, 0.8);
+  }
+  

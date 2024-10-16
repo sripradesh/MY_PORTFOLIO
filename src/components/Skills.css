@@ -1,0 +1,21 @@
+.skills-section {
+    padding: 02rem 4rem;
+    text-align: center;
+    background-color: black;
+    color: aqua;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 0 10px #ff9800, 0 0 20px #ff9800;;
+    color: orange;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #00ffea;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00ffea, 0 0 30px #00ffea;
+  }
+  
